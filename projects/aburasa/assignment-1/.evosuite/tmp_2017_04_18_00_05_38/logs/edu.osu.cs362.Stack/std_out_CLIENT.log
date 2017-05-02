@@ -1,0 +1,92 @@
+* Starting client
+* Connecting to master process on port 19809
+* Analyzing classpath: 
+  - C:\Users\MG\Dropbox\CS362\CS362-001-SP17\projects\aburasa\assignment-1\target\classes
+* Finished analyzing classpath
+* Generating tests for class edu.osu.cs362.Stack
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 00:07:17.984 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\MG\Dropbox\CS362\CS362-001-SP17\projects\aburasa\assignment-1\.evosuite\evosuite-seeds\edu.osu.cs362.Stack.seed
+* Total number of test goals: 
+  - Line 20
+  - Branch 12
+  - Exception 0
+  - MutationFactory 59
+  - Output 13
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 12
+* Using seed 1492499236213
+* Starting evolution
+* Search finished after 55s and 1933 generations, 142407 statements, best individual has fitness: 15.75
+* Writing sequences to pool
+* Minimizing test suite
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 95%
+* Total number of goals: 20
+* Number of covered goals: 19
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 92%
+* Total number of goals: 59
+* Number of covered goals: 54
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 46%
+* Total number of goals: 13
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 4
+* Number of covered goals: 4
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 92%
+* Total number of goals: 12
+* Number of covered goals: 11
+* Generated 9 tests with total length 36
+* Coverage of criterion STATEMENT: 97%
+* Total number of goals: 87
+* Number of covered goals: 84
+* Coverage of criterion ONLYBRANCH: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage of criterion IBRANCH: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage of criterion ONLYMUTATION: 92%
+* Total number of goals: 59
+* Number of covered goals: 54
+* Coverage of criterion MUTATION: 31%
+* Total number of goals: 59
+* Number of covered goals: 18
+* Coverage of criterion INPUT: 0%
+* Total number of goals: 3
+* Number of covered goals: 0
+* Coverage of criterion METHODTRACE: 86%
+* Total number of goals: 7
+* Number of covered goals: 6
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Compiling and checking tests
+* Writing JUnit test case 'Stack_ESTest' to C:\Users\MG\Dropbox\CS362\CS362-001-SP17\projects\aburasa\assignment-1\.evosuite\tmp_2017_04_18_00_05_38\tests
+* Done!
+
