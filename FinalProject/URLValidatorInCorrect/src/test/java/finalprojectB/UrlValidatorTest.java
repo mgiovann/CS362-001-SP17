@@ -197,7 +197,8 @@ public class UrlValidatorTest extends TestCase {
 
       String goodURL = goodSchemeArray[ThreadLocalRandom.current().nextInt(0, goodSchemeArray.length)] + 
       goodAuthorityArray[ThreadLocalRandom.current().nextInt(0, goodAuthorityArray.length)] +
-      goodPathArray[ThreadLocalRandom.current().nextInt(0, goodPathArray.length)]; 
+      goodPathArray[ThreadLocalRandom.current().nextInt(0, goodPathArray.length)] +
+      goodQueryArray[ThreadLocalRandom.current().nextInt(0, goodQueryArray.length)]; 
 
       UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
 
